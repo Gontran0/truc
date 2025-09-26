@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin:0; background:#FCF8F5; color:#42312b; }
+header { display:flex; justify-content:space-between; align-items:center; padding:10px 30px; background:#fff; border-bottom:1px solid #ddd; }
+nav a { margin:0 10px; text-decoration:none; color:#42312b; font-weight:bold; }
+h1,h2,h3 { color:#42312b; }
+.btn { background:#42312b; color:#FCF8F5; padding:10px 20px; border:none; cursor:pointer; }
+.produits-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:20px; padding:20px; }
+.produit img { width:100%; border-radius:5px; }
+footer { text-align:center; padding:20px; background:#fff; margin-top:30px; }

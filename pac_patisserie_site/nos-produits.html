@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nos Produits – PAC Pâtisserie</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="logo"><img src="images/logo.png" style="height:60px;"></div>
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="nos-produits.html">Nos Produits</a>
+    <a href="panier.html">Panier</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="produits">
+  <h1>Nos Produits</h1>
+
+  <div class="categories-filtres">
+    <button onclick="filtrerProduits('all')">Tous</button>
+    <button onclick="filtrerProduits('gateaux')">Gâteaux de voyage</button>
+    <button onclick="filtrerProduits('biscuits')">Biscuiterie</button>
+    <button onclick="filtrerProduits('choco')">Chocolaterie</button>
+    <button onclick="filtrerProduits('confiserie')">Confiserie</button>
+    <button onclick="filtrerProduits('viennoiserie')">Viennoiseries</button>
+  </div>
+
+  <div class="produits-grid" id="liste-produits">
+    <div class="produit gateaux"><img src="images/madeleines.jpg"><h3>Madeleines</h3><p class="prix">4,00 €</p></div>
+    <div class="produit biscuits"><img src="images/cookies.jpg"><h3>Cookies</h3><p class="prix">3,00 €</p></div>
+    <div class="produit choco"><img src="images/brownie.jpg"><h3>Brownie</h3><p class="prix">3,50 €</p></div>
+    <div class="produit gateaux"><img src="images/financiers.jpg"><h3>Financiers</h3><p class="prix">2,50 €</p></div>
+  </div>
+</section>
+
+<footer><p>© 2025 PAC Pâtisserie</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
